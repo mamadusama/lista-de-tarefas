@@ -1,0 +1,140 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background: #29005f;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.tarefa{
+   display: flex;
+   align-items: center;
+   background: #afb4b6;
+   width: 100%;
+   height: 40px;
+   margin-bottom: -5px;
+   border-radius: 15px 0px 0px 15px;
+   overflow: hidden;
+   p{
+    color: #000000;
+    font-size: 16px;
+    text-transform: uppercase;
+   }
+  
+}
+.lista-tarefa{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+    
+  .acoes{
+    background: #afb4b6;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    margin-bottom: -5px;
+    border-radius: 0px 15px 15px 0px;
+    gap: 20px;
+   
+    .add{
+      i{
+        color: green;
+        font-weight: 600;
+        font-size: 20px;
+       
+      }
+    }
+
+    .remover{
+      i{
+        font-size: 20px;
+      color: #ff0022;
+
+      }
+    }
+
+  }
+
+ 
+   
+}
+
+.interface{
+  width: 100%;
+  height: 100%;
+  background: #d8d8d8;
+  border-radius: 15px;
+   padding: 20px 15px 20px 0px;
+   overflow: hidden;
+   h1{
+      color: #270780;
+      font-size: 2.5rem;
+      
+    
+   }
+   .borderBotton{
+    width: 100%;
+    height: 1px;
+    margin: -15px  auto 20px auto;
+    border-bottom: 1px solid #acacac;
+
+   }
+}
+
+.adicionar-tarefa{
+  display: none;
+  gap: 2rem;
+  width: 100%;
+  
+  input{
+    height: 39px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+}
