@@ -29,11 +29,11 @@ O projeto é dividido em vários componentes:
 - Utiliza `useState` para gerenciar o estado da lista de tarefas (`listaTarefa`) e a tarefa atualmente sendo editada (`tarefaParaEditar`).
 
 **Principais Funções:**
-- `removerItem(item)`: Remove uma tarefa da lista.
+- `removerItem(item)`: Remove uma tarefa da lista 
 - `adicionarItem(item)`: Adiciona uma nova tarefa ou edita uma tarefa existente.
 - `iniciarEdicao(item)`: Define a tarefa que está sendo editada e mostra o campo de input para edição 
 
-### ContainerAdicionarTarefa.js
+### ContainerAdicionarTarefa.js (outro componente)
 
 **Função:**
 - Lida com a adição e edição de tarefas.
