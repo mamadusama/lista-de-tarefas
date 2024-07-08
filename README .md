@@ -31,7 +31,7 @@ O projeto é dividido em vários componentes:
 **Principais Funções:**
 - `removerItem(item)`: Remove uma tarefa da lista.
 - `adicionarItem(item)`: Adiciona uma nova tarefa ou edita uma tarefa existente.
-- `iniciarEdicao(item)`: Define a tarefa que está sendo editada e mostra o campo de input para edição.
+- `iniciarEdicao(item)`: Define a tarefa que está sendo editada e mostra o campo de input para edição 
 
 ### ContainerAdicionarTarefa.js
 
